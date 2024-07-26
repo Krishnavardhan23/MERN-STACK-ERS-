@@ -1,0 +1,82 @@
+/* header.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e80000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.Left {
+  width: 33%;
+}
+
+.Left img {
+  height: 50px;
+}
+
+.Middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+.Middle h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-family: "Roboto Slab", serif;
+}
+
+.Right {
+  width: 34%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-btn,
+.create-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(90deg, #017d58, #00d3cf);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-btn:hover,
+.create-btn:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 760px) {
+  .Left {
+    display: none; 
+  }
+
+  .login-btn,
+  .create-btn {
+    display: inline-block; 
+    margin-left: 10px;
+  }
+}
+@media (max-width: 450px) {
+  html, body {
+    min-width: 440px; 
+    overflow-x: hidden;
+  }
+}

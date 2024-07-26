@@ -1,0 +1,85 @@
+.Home2-main {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #e80000;
+  }
+  
+  .Home2-Left {
+    width: 50%;
+  }
+  
+  .head1 {
+    margin-left: 25px;
+  }
+  
+  .head1 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  
+  .head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .head2 img {
+    width: 60%;
+    margin-left: 15px;
+  }
+  
+  .head3 {
+    margin-left: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  
+  /* Example styling for the form section */
+  .Home2-Right {
+    font-family: "Roboto Slab", serif;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 8px 5px inset;
+    border-radius: 5px;
+  }
+  
+  .Home2-Right h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

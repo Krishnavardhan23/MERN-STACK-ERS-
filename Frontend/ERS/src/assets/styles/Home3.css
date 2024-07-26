@@ -1,0 +1,30 @@
+.Home3-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.Home3-main h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.logos img {
+    max-width: 100px; 
+    margin: 10px;
+}
+
+@media screen and (max-width: 1086px) {
+    .logos img:nth-child(n+5) {
+        display: none;
+    }
+}

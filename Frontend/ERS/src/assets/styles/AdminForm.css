@@ -1,0 +1,98 @@
+/* AdminForm.css */
+
+/* Outer container for the form */
+.admin-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+  padding: 20px;
+  background: linear-gradient(90deg, #017d58, #00d3cf);
+
+}
+
+/* Style for the main content */
+.admin-form-content {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Title text style */
+.admin-form-content h1 {
+  font-size: 30px;
+  color: whitesmoke;
+  font-family: "Montserrat", serif;
+}
+
+.admin-form-content h2 {
+  font-size: 30px;
+  color: #555555;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.admin-form-content label {
+  display: block;
+  font-weight: bold;
+  /* margin: 10px 0 5px; */
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* Style for form inputs and selects */
+.admin-form-content input,
+.admin-form-content select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Focus style for inputs and selects */
+.admin-form-content input:focus,
+.admin-form-content select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Style for the submit button */
+.admin-form-content button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Hover effect for the submit button */
+.admin-form-content button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message style */
+.admin-form-content .error {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+/* Success message style */
+.admin-form-content .message {
+  color: #28a745;
+  margin-top: 10px;
+}

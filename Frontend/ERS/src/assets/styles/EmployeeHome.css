@@ -1,0 +1,116 @@
+.employee-home-container {
+    display: flex;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+  }
+  
+  .profile-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .profile-picture {
+    text-align: center;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .change-photo-button {
+    display: block;
+    margin: 10px auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .profile-details {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .profile-details li {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .details-section {
+    width: 60%;
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .headernext {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .headernext p {
+    margin: 0;
+    color: gray;
+    margin: 5px;
+  }
+  
+  .tabs {
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tab {
+    margin-right: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid red;
+    color: green;
+  }
+  
+  .info-table {
+    margin-top: 20px;
+    display: flex;
+    /* max-width: 600px; */
+    justify-content: center;
+  }
+  
+  .info-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .info-table td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .info-table td:first-child {
+    font-weight: bold;
+    color: gray;
+  }

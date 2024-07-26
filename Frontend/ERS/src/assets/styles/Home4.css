@@ -1,0 +1,86 @@
+.Home4-main {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.Home4-main h3 {
+  cursor: pointer;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #333; 
+}
+
+.Home4-main h3.active {
+  background-color: #003366; 
+  color: white; 
+}
+
+.Home4-main h3:hover {
+  background-color: #ddd;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.reviews, .updates {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow boxes to wrap */
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 30%;
+  align-content: top;
+  background-color: bisque;
+}
+
+.box #heading {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.box #heading hr.divider {
+  width: 50%;
+  margin: 10px auto;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.box #content {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.updates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 860px) {
+  .reviews .box:nth-child(n+3) {
+    display: none;
+  }
+}

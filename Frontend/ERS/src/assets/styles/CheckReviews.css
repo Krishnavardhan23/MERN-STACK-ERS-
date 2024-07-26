@@ -1,0 +1,37 @@
+.checkReviews-container {
+    padding: 20px;
+  }
+  
+  .checkreviewstable {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .checkreviewstable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .checkreviewstable th, .checkreviewstable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .checkreviewstable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .review-button, .rate-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
